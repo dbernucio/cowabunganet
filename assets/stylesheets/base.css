@@ -148,7 +148,7 @@ section .inner-section {
 /* Media */
 
 #media {
-  margin-top: 50px;
+  padding-top: 60px;
   margin-bottom: 50px;
 }
 
