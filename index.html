@@ -6,6 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/base.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/mobile.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -16,7 +18,7 @@
           <span class="stripe"></span>
           <span class="stripe"></span>
         </div>
-        <ul class="menu">
+        <ul class="menu" id="floating-menu">
           <li><a href="#media">Mídias</a></li>
           <li><a href="#who">Quem somos</a></li>
         </ul>
@@ -27,14 +29,162 @@
       </nav>
     </header>
 
+    <!-- Header -->
+
      <section id="header-logo" class="full-section">
       <img src="assets/images/logo-big.png" class="big-logo" alt="Cowabunga Networking">
     </section>
 
+    <!-- Media -->
+
     <section id="media">
+      <div class="row row-centered">
+        <div class="card card-trio">
+          <div class="row">
+            <div class="col-md-12 media-logo">
+              <img src="assets/images/logo-trio.png">
+            </div>
+          </div>
+          <div class="row row-centered networks">
+            <a href="" target="_blank">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="row">
+            <div class="col-md-12 media-title">
+              TRIO ENTRETENIMENTO
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 media-slogan">
+              Diversão e Entretenimento, provavelmente nada interessante...
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-definitivo">
+          <div class="row">
+            <div class="col-md-12 media-logo">
+              <img src="assets/images/logo-definitivo.png">
+            </div>
+          </div>
+          <div class="row row-centered networks">
+            <a href="" target="_blank">
+              <i class="fa fa-youtube-square" aria-hidden="true"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="row">
+            <div class="col-md-12 media-title">
+              CANAL DEFINITIVO
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 media-slogan">
+              O Canal Definitivo do YouTube Brasil! Assista se quiser, pare se conseguir!
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-ouvikings">
+          <div class="row">
+            <div class="col-md-12 media-logo">
+              <img src="assets/images/logo-ouvikings.png">
+            </div>
+          </div>
+          <div class="row row-centered networks">
+            <a href="" target="_blank">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="row">
+            <div class="col-md-12 media-title">
+              OUVIKINGS
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 media-slogan">
+              Um bando de Nerds, falando de assuntos igualmente Nerds.
+              Aqui você encontrará Podcasts e muita diversão.
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- Who -->
+
     <section id="who">
+      <div class="comming-soon">
+        <img src="assets/images/comming-soon.png">
+        <br />Em construção
+      </div>
+      <div class="row title">
+        SOMOS A COWABUNGA
+      </div>
+      <div class="row">
+        <div class="col-xs-12 description">
+          As Tartarugas Ninja (Teenage Mutant Ninja Turtles no original, frequentemente abreviado como
+          TMNT), é um grupo de quatro tartarugas antropomórficas, a quem lhes foi dado o nome de quatro artistas
+          italianos do Renascimento e treinadas na arte do ninjutsu por um rato sensei antropomórfico com o nome
+          Splinter. A partir de sua casa, os esgotos de Nova Iorque, batalham contra criminosos, senhores
+          demoníacos, criaturas mutantes e alienígenas invasores, enquanto que ao mesmo tentam tempo
+          permanecer escondidos da sociedade.
+        </div>
+      </div>
+      <div class="row members">
+        <div class="row row-centered images">
+          <div class="col-xs-4">
+            <img src="assets/images/ninja-turtle-1.png">
+            <div class="name">Donatelo</div>
+            <div class="organization">TMNT</div>
+          </div>
+          <div class="col-xs-4">
+            <img src="assets/images/ninja-turtle-2.png">
+            <div class="name">Michelangelo</div>
+            <div class="organization">TMNT</div>
+          </div>
+          <div class="col-xs-4">
+            <img src="assets/images/ninja-turtle-3.png">
+            <div class="name">Rafael</div>
+            <div class="organization">TMNT</div>
+          </div>
+        </div>
+        <div class="row row-centered images">
+          <div class="col-xs-4">
+            <img src="assets/images/ninja-turtle-3.png">
+            <div class="name">Rafael</div>
+            <div class="organization">TMNT</div>
+          </div>
+          <div class="col-xs-4">
+            <img src="assets/images/ninja-turtle-1.png">
+             <div class="name">Donatelo</div>
+            <div class="organization">TMNT</div>
+          </div>
+          <div class="col-xs-4">
+            <img src="assets/images/ninja-turtle-2.png">
+            <div class="name">Michelangelo</div>
+            <div class="organization">TMNT</div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!--Footer -->
+    <div id="footer">
+    </div>
+
+    <script src="assets/javascripts/jquery.min.js"></script>
+    <script src="assets/javascripts/jquery.scrollTo.min.js"></script>
+    <script src="assets/javascripts/base.js"></script>
   </body>
 </html>
 
