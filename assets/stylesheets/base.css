@@ -159,7 +159,7 @@ section .inner-section {
 #media .card-definitivo .media-logo .soon {
   font-size: 18px;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
   opacity: 0.3;
 }
 
