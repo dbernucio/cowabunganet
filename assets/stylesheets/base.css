@@ -143,7 +143,7 @@ section .inner-section {
   border-radius: 10px;
   box-shadow: 3px 8px 6px -6px #777;
   margin: 10px 5px 20px 10px;
-  display: inline-table;
+  display: inline-block;
 }
 
 #media .media-logo {
@@ -181,17 +181,29 @@ section .inner-section {
 }
 
 .networks {
-  display:none;
-  height:100%;
-  width:100%;
+  visibility: hidden;
+  height: 230px;
+  width: 250px;
   position:absolute;
-  top:0px;
-  left:0px;
-  float:left;
-  background-color: #FDFDFD;
+  background-color: rgba(253, 253, 253, 0.8);
+  z-index: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -1px;
 }
 
 .networks a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.networks i {
+  text-decoration: none;
+  margin-top: 165px;
+  margin-right: 15px;
+}
+
+.newtwork-img {
   text-decoration: none;
 }
 
