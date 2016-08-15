@@ -9,8 +9,7 @@
     $to = 'diane.bernucio@gmail.com';
     $subject = 'Nova mensagem de contato';
 
-    $body ="<b>Nome: $name</b>\n <b>E-mail</b>: $email\n" +
-      "<b>Site: $site</b>\n \n\n $message";
+    $body ="Nome: $name\n Email: $email\n Site: $site\n \n\n $message";
 
     // Check if name has been entered
     if (!$_POST['name']) {
@@ -272,6 +271,7 @@
     </section>
 
     <!--Footer -->
+
     <div id="footer">
       <a href="https://www.facebook.com/CowabungaNet/?fref=ts" target="_blank">
         <i class="fa fa-facebook-square fa-2x"></i>
