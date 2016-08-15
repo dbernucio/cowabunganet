@@ -9,7 +9,7 @@
     $to = 'diane.bernucio@gmail.com';
     $subject = 'Nova mensagem de contato';
 
-    $body ="Nome: $name\n Email: $email\n Site: $site\n \n\n $message";
+    $body ="<b>Nome:</b> $name\n<b>Email:</b> $email\n<b>Site:</b> $site\n\n\n$message";
 
     // Check if name has been entered
     if (!$_POST['name']) {
