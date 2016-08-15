@@ -4,8 +4,7 @@
     $email = $_POST['email'];
     $site = $_POST['site'];
     $message = $_POST['message'];
-    // $to = 'contato@cowabunganet.esy.es';
-    $to = 'diane.bernucio@gmail.com';
+    $to = 'contato@cowabunganet.esy.es';
     $subject = 'Nova mensagem de contato';
 
     $body ="Nome: $name\nEmail: $email\nSite: $site\n\n\nMensagem:\n\n $message";
