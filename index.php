@@ -4,12 +4,12 @@
     $email = $_POST['email'];
     $site = $_POST['site'];
     $message = $_POST['message'];
-    $from = $_POST['email'];
+    // $from = $_POST['email'];
     // $to = 'contato@cowabunganet.esy.es';
     $to = 'diane.bernucio@gmail.com';
     $subject = 'Nova mensagem de contato';
 
-    $body ="<b>Nome:</b> $name\n<b>Email:</b> $email\n<b>Site:</b> $site\n\n\n$message";
+    $body ="Nome: $name\nEmail: $email\nSite: $site\n\n\nMensagem:\n $message";
 
     // Check if name has been entered
     if (!$_POST['name']) {
