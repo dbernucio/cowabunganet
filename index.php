@@ -4,12 +4,11 @@
     $email = $_POST['email'];
     $site = $_POST['site'];
     $message = $_POST['message'];
-    // $from = $_POST['email'];
     // $to = 'contato@cowabunganet.esy.es';
     $to = 'diane.bernucio@gmail.com';
     $subject = 'Nova mensagem de contato';
 
-    $body ="Nome: $name\nEmail: $email\nSite: $site\n\n\nMensagem:\n $message";
+    $body ="Nome: $name\nEmail: $email\nSite: $site\n\n\nMensagem:\n\n $message";
 
     // Check if name has been entered
     if (!$_POST['name']) {
@@ -176,12 +175,14 @@
               <div class="col-sm-12">
                 <input type="text" class="form-control" id="name" name="name"
                   placeholder="Nome" value="">
+                <?php echo "<p class='text-danger'>$errName</p>";?>
               </div>
             </div>
             <div class="form-group">
               <div class="col-sm-12">
                 <input type="email" class="form-control" id="email" name="email"
                   placeholder="Email" value="">
+                <?php echo "<p class='text-danger'>$errEmail</p>";?>
               </div>
             </div>
             <div class="form-group">
@@ -194,6 +195,7 @@
               <div class="col-sm-12">
                 <textarea class="form-control" rows="4" id="message" name="message"
                   placeholder="Mensagem"></textarea>
+                <?php echo "<p class='text-danger'>$errMessage</p>";?>
               </div>
             </div>
             <div class="form-group">
@@ -204,7 +206,7 @@
             </div>
             <div class="form-group">
               <div class="col-sm-12 col-sm-offset-2">
-                <! Will be used to display an alert to the user>
+                <?php echo $result; ?>
               </div>
             </div>
           </form>
