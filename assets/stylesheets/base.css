@@ -46,6 +46,11 @@ ul {
   text-decoration: none;
 }
 
+.text-danger {
+  float: left;
+  color: red;
+}
+
 /* Header */
 
 header {
