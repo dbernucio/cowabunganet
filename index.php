@@ -4,8 +4,7 @@
     $email = $_POST['email'];
     $site = $_POST['site'];
     $message = $_POST['message'];
-    $human = intval($_POST['human']);
-    $from = 'Demo Contact Form';
+    $from = $_POST['email'];
     // $to = 'contato@cowabunganet.esy.es';
     $to = 'diane.bernucio@gmail.com';
     $subject = 'Nova mensagem de contato';
@@ -15,24 +14,21 @@
 
     // Check if name has been entered
     if (!$_POST['name']) {
-      $errName = 'Please enter your name';
+      $errName = 'Preencha com o seu nome';
     }
 
     // Check if email has been entered and is valid
     if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-      $errEmail = 'Please enter a valid email address';
+      $errEmail = 'Preencha com o seu email';
     }
 
     //Check if message has been entered
     if (!$_POST['message']) {
-      $errMessage = 'Please enter your message';
+      $errMessage = 'Escreva a sua mensagem';
     }
-    //Check if simple anti-bot test is correct
-    if ($human !== 5) {
-      $errHuman = 'Your anti-spam is incorrect';
-    }
+
     // If there are no errors, send the email
-    if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+    if (!$errName && !$errEmail && !$errMessage) {
       if (mail ($to, $subject, $body, $from)) {
         $result='<div class="alert alert-success">Obrigado! Entraremos em contato com você!</div>';
       }
@@ -189,12 +185,6 @@
             <label for="message" class="col-sm-2 control-label">Mensagem</label>
             <div class="col-sm-10">
               <textarea class="form-control" rows="4" name="message"></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
             </div>
           </div>
           <div class="form-group">
