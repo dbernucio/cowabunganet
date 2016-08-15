@@ -49,6 +49,7 @@ ul {
 .text-danger {
   float: left;
   color: red;
+  margin-top: 0;
 }
 
 /* Header */
