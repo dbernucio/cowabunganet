@@ -205,8 +205,8 @@
               </div>
             </div>
             <div class="form-group">
-              <div class="col-sm-12 col-sm-offset-2">
-                <?php echo '<script type="text/javascript">alert("'.$result.'");</script>'; ?>
+              <div class="col-sm-12">
+                <?php echo $result; ?>
               </div>
             </div>
           </form>
