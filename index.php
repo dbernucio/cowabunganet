@@ -62,12 +62,12 @@
         </div>
         <ul class="menu" id="floating-menu">
           <li><a href="#media">Mídias</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <!-- <li><a href="#contact">Contato</a></li> -->
           <li><a href="#who">Quem somos</a></li>
         </ul>
         <ul class="mobile-menu">
           <li><a href="#media">Mídias</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <!-- <li><a href="#contact">Contato</a></li> -->
           <li><a href="#who">Quem somos</a></li>
         </ul>
       </nav>
@@ -164,7 +164,7 @@
     <!-- Contact -->
 
     <div id="contact">
-      <section>
+      <!-- <section>
         <form class="form-horizontal" role="form" method="post" action="index.php">
           <div class="form-group">
             <div class="col-sm-10">
@@ -198,7 +198,7 @@
             </div>
           </div>
         </form>
-      </section>
+      </section> -->
     </div>
 
     <!-- Who -->
