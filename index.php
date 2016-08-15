@@ -62,12 +62,12 @@
         </div>
         <ul class="menu" id="floating-menu">
           <li><a href="#media">Mídias</a></li>
-          <!-- <li><a href="#contact">Contato</a></li> -->
+          <li><a href="#contact">Contato</a></li>
           <li><a href="#who">Quem somos</a></li>
         </ul>
         <ul class="mobile-menu">
           <li><a href="#media">Mídias</a></li>
-          <!-- <li><a href="#contact">Contato</a></li> -->
+          <li><a href="#contact">Contato</a></li>
           <li><a href="#who">Quem somos</a></li>
         </ul>
       </nav>
@@ -164,41 +164,53 @@
     <!-- Contact -->
 
     <div id="contact">
-      <!-- <section>
-        <form class="form-horizontal" role="form" method="post" action="index.php">
-          <div class="form-group">
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="name" name="name" placeholder="Nome" value="">
+      <section>
+        <div class="row title">
+          CONTATO
+        </div>
+        <div class="row subtitle">
+          Também é um criador de conteúdo? Entre em contato conosco!
+        </div>
+        <div class="row row-centered">
+          <form class="form-horizontal" role="form" method="post" action="index.php">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" name="name"
+                  placeholder="Nome" value="">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="email" name="email" placeholder="Email: exemplo@exemplo.com" value="">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" name="email"
+                  placeholder="Email" value="">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="site" name="site" placeholder="Site" value="">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="site" name="site"
+                  placeholder="Seu site ou página" value="">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="message" class="col-sm-2 control-label">Mensagem</label>
-            <div class="col-sm-10">
-              <textarea class="form-control" rows="4" name="message"></textarea>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <textarea class="form-control" rows="4" id="message" name="message"
+                  placeholder="Mensagem"></textarea>
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-10 col-sm-offset-2">
-              <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input id="submit" name="submit" type="submit" value="Enviar"
+                  class="btn btn-primary">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-10 col-sm-offset-2">
-              <! Will be used to display an alert to the user>
+            <div class="form-group">
+              <div class="col-sm-12 col-sm-offset-2">
+                <! Will be used to display an alert to the user>
+              </div>
             </div>
-          </div>
-        </form>
-      </section> -->
+          </form>
+        </div>
+      </section>
     </div>
 
     <!-- Who -->
@@ -209,7 +221,7 @@
         <br />Em construção
       </div>
       <div class="row title">
-        SOMOS A COWABUNGA
+        Somos a Cowabunga
       </div>
       <div class="row">
         <div class="col-xs-12 description">
@@ -261,6 +273,9 @@
 
     <!--Footer -->
     <div id="footer">
+      <a href="https://www.facebook.com/CowabungaNet/?fref=ts" target="_blank">
+        <i class="fa fa-facebook-square fa-2x"></i>
+      </a>
     </div>
 
     <script src="assets/javascripts/jquery.min.js"></script>
