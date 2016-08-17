@@ -213,7 +213,7 @@ section .inner-section {
 }
 
 #media .media-title {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   font-weight: bold;
