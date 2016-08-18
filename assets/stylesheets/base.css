@@ -158,7 +158,7 @@ section .inner-section {
 }
 
 #media .card {
-  width: 240px;
+  width: 250px;
   height: 380px;
   background-color: rgba(207, 207, 207, 0.2);
   border: 1px solid #ddd;
@@ -170,7 +170,7 @@ section .inner-section {
 }
 
 #media .media-logo {
-  width: 240px;
+  width: 250px;
   height: 185px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -191,16 +191,15 @@ section .inner-section {
 #media .card-trio .media-logo img {
   margin-left: -15px;
   padding-top: 30px;
-}
-
-#media .card-definitivo .media-logo {
-  background-color: #142551;
+  width: 250px;
 }
 
 #media .card-definitivo .media-logo img {
-  width: 170px;
+  width: 250px;
   height: 185px;
   margin-left: -15px !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 #media .card-ouvikings .media-logo {
@@ -221,7 +220,7 @@ section .inner-section {
 
 .networks {
   visibility: hidden;
-  height: 230px;
+  height: 195px;
   width: 250px;
   position:absolute;
   background-color: rgba(253, 253, 253, 0.8);

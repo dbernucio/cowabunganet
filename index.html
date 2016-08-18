@@ -84,7 +84,7 @@
           <div class="card card-definitivo">
             <div class="row">
               <div class="col-md-12 media-logo">
-                <img src="assets/images/logo-definitivo.png">
+                <img src="assets/images/logo-definitivo.jpg">
               </div>
             </div>
             <div class="row row-centered networks">
